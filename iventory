@@ -1,0 +1,17 @@
+203.0.113.20
+203.0.113.16
+203.0.113.19
+
+
+[allservers]
+ubuntu
+ubuntunew
+debian
+
+[debianserver]
+debian
+
+
+[app:children]
+allservers
+debianservers
